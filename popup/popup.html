@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Веб-выделитель</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1 class="popup-title">✏️ Веб-выделитель</h1>
+      <span class="popup-count" id="count">0</span>
+    </header>
+
+    <div class="popup-content">
+      <!-- Empty state -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">📝</div>
+        <p class="empty-text">Пока выделений нет.</p>
+        <p class="empty-hint">Выделите текст на любой странице и нажмите <strong>Сохранить</strong></p>
+      </div>
+
+      <!-- Highlights list -->
+      <div class="highlights-list" id="highlightsList"></div>
+    </div>
+
+    <footer class="popup-footer">
+      <button class="btn-export" id="exportBtn">📥 Экспорт в Markdown</button>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
