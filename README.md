@@ -13,6 +13,12 @@
 - 📥 **Экспорт в Markdown** — выгрузите все выделения в Markdown-файл
 - 🎯 **Manifest V3** — современный стандарт расширений Chrome
 
+
+## Скриншот
+
+<img width="373" height="201" alt="image" src="https://github.com/user-attachments/assets/b765ea38-8ac8-46c9-a7e2-c6197c3a8bb2" />
+
+
 ## Установка
 
 ### 1. Клонируйте репозиторий
